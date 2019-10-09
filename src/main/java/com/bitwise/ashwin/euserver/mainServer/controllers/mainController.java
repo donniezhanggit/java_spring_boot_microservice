@@ -10,6 +10,6 @@ public class mainController {
 	@RequestMapping(value="/show")
 	@ResponseBody
 	public String show() {
-		return "<h1>This is Mars</h1>";
+		return "<h1>This is Mars, updated through jenkins</h1>";
 	}
 }
