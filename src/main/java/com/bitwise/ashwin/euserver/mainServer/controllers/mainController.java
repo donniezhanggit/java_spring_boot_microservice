@@ -12,4 +12,9 @@ public class mainController {
 	public String show() {
 		return "<h1>This is Mars, updated through jenkins</h1>";
 	}
+	@RequestMapping(value="/showagain")
+	@ResponseBody
+	public String showthis() {
+		return "<H1> This is another method </H1>";
+	}
 }
